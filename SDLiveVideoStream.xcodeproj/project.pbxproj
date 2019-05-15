@@ -21,14 +21,18 @@
 		75D2F3B01F35B1A700A734F2 /* UIView+SDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2F3A21F35B1A700A734F2 /* UIView+SDCategory.m */; };
 		75D2F3B11F35B1A700A734F2 /* UIViewController+SDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2F3A41F35B1A700A734F2 /* UIViewController+SDCategory.m */; };
 		75D2F3B21F35B1A700A734F2 /* UIWebView+SDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2F3A61F35B1A700A734F2 /* UIWebView+SDCategory.m */; };
+		75F5E83F228C21B400BFB715 /* IMYDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E82E228C21B400BFB715 /* IMYDataViewModel.m */; };
+		75F5E840228C21B400BFB715 /* SDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E831228C21B400BFB715 /* SDTableViewController.m */; };
+		75F5E841228C21B400BFB715 /* IMYStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E834228C21B400BFB715 /* IMYStudent.m */; };
+		75F5E842228C21B400BFB715 /* IMYTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E837228C21B400BFB715 /* IMYTeacher.m */; };
+		75F5E843228C21B400BFB715 /* FHWStudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E83A228C21B400BFB715 /* FHWStudentCell.m */; };
+		75F5E844228C21B400BFB715 /* FHWBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E83C228C21B400BFB715 /* FHWBaseTableViewCell.m */; };
+		75F5E845228C21B400BFB715 /* FHWTeacherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E83E228C21B400BFB715 /* FHWTeacherCell.m */; };
 		FC12FD481F2F2F610012B633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC12FD471F2F2F610012B633 /* main.m */; };
 		FC12FD4B1F2F2F610012B633 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC12FD4A1F2F2F610012B633 /* AppDelegate.m */; };
 		FC12FD531F2F2F610012B633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC12FD521F2F2F610012B633 /* Assets.xcassets */; };
 		FC12FD561F2F2F610012B633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC12FD541F2F2F610012B633 /* LaunchScreen.storyboard */; };
 		FC50B54B1F387B3E00714738 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC50B54A1F387B3E00714738 /* BaseNavigationController.m */; };
-		FC9324D1222E6B7C00408AF6 /* IMYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9324D0222E6B7C00408AF6 /* IMYViewController.m */; };
-		FCA35DF1225DE8C5000BB40D /* FHWCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA35DEF225DE8C5000BB40D /* FHWCarouselView.m */; };
-		FCA35DF4225DE8FC000BB40D /* FHWPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA35DF3225DE8FC000BB40D /* FHWPageControl.m */; };
 		FCA35DF7225DED97000BB40D /* UIImageView+SDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA35DF6225DED97000BB40D /* UIImageView+SDCategory.m */; };
 		FCA35DFA225DEE06000BB40D /* UIView+IMYFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA35DF9225DEE06000BB40D /* UIView+IMYFoundation.m */; };
 		FCA35DFD225DEE85000BB40D /* NSObject+IMYFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA35DFC225DEE85000BB40D /* NSObject+IMYFoundation.m */; };
@@ -49,7 +53,6 @@
 		75BF87EA1F36CA85000C91A6 /* WebConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebConstant.h; sourceTree = "<group>"; };
 		75D2F3781F35AF0F00A734F2 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
 		75D2F3791F35AF0F00A734F2 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
-		75D2F37B1F35AF0F00A734F2 /* ReactiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveTableViewCell.h; sourceTree = "<group>"; };
 		75D2F3861F35AF0F00A734F2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		75D2F3871F35AF0F00A734F2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		75D2F38E1F35B1A700A734F2 /* HeadSDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadSDCategory.h; sourceTree = "<group>"; };
@@ -76,6 +79,21 @@
 		75D2F3A51F35B1A700A734F2 /* UIWebView+SDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+SDCategory.h"; sourceTree = "<group>"; };
 		75D2F3A61F35B1A700A734F2 /* UIWebView+SDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+SDCategory.m"; sourceTree = "<group>"; };
 		75D2F3B31F35B26900A734F2 /* SDLiveVideoStream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDLiveVideoStream-Prefix.pch"; sourceTree = "<group>"; };
+		75F5E82D228C21B400BFB715 /* IMYDataViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYDataViewModel.h; sourceTree = "<group>"; };
+		75F5E82E228C21B400BFB715 /* IMYDataViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYDataViewModel.m; sourceTree = "<group>"; };
+		75F5E830228C21B400BFB715 /* SDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTableViewController.h; sourceTree = "<group>"; };
+		75F5E831228C21B400BFB715 /* SDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTableViewController.m; sourceTree = "<group>"; };
+		75F5E833228C21B400BFB715 /* IMYItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYItemProtocol.h; sourceTree = "<group>"; };
+		75F5E834228C21B400BFB715 /* IMYStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYStudent.m; sourceTree = "<group>"; };
+		75F5E835228C21B400BFB715 /* IMYTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYTeacher.h; sourceTree = "<group>"; };
+		75F5E836228C21B400BFB715 /* IMYStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYStudent.h; sourceTree = "<group>"; };
+		75F5E837228C21B400BFB715 /* IMYTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYTeacher.m; sourceTree = "<group>"; };
+		75F5E839228C21B400BFB715 /* FHWBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWBaseTableViewCell.h; sourceTree = "<group>"; };
+		75F5E83A228C21B400BFB715 /* FHWStudentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWStudentCell.m; sourceTree = "<group>"; };
+		75F5E83B228C21B400BFB715 /* FHWTeacherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWTeacherCell.h; sourceTree = "<group>"; };
+		75F5E83C228C21B400BFB715 /* FHWBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWBaseTableViewCell.m; sourceTree = "<group>"; };
+		75F5E83D228C21B400BFB715 /* FHWStudentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWStudentCell.h; sourceTree = "<group>"; };
+		75F5E83E228C21B400BFB715 /* FHWTeacherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWTeacherCell.m; sourceTree = "<group>"; };
 		7A66E5A9A66C823485C1D7B6 /* Pods-SDLiveVideoStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDLiveVideoStream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDLiveVideoStream/Pods-SDLiveVideoStream.debug.xcconfig"; sourceTree = "<group>"; };
 		9247ADC3A36C962B601EA65D /* libPods-SDLiveVideoStream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDLiveVideoStream.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC12FD431F2F2F610012B633 /* SDLiveVideoStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLiveVideoStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,12 +105,6 @@
 		FC12FD571F2F2F610012B633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC50B5491F387B3E00714738 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		FC50B54A1F387B3E00714738 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		FC9324CF222E6B7C00408AF6 /* IMYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMYViewController.h; sourceTree = "<group>"; };
-		FC9324D0222E6B7C00408AF6 /* IMYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMYViewController.m; sourceTree = "<group>"; };
-		FCA35DEF225DE8C5000BB40D /* FHWCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWCarouselView.m; sourceTree = "<group>"; };
-		FCA35DF0225DE8C5000BB40D /* FHWCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWCarouselView.h; sourceTree = "<group>"; };
-		FCA35DF2225DE8FC000BB40D /* FHWPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWPageControl.h; sourceTree = "<group>"; };
-		FCA35DF3225DE8FC000BB40D /* FHWPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWPageControl.m; sourceTree = "<group>"; };
 		FCA35DF5225DED97000BB40D /* UIImageView+SDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDCategory.h"; sourceTree = "<group>"; };
 		FCA35DF6225DED97000BB40D /* UIImageView+SDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDCategory.m"; sourceTree = "<group>"; };
 		FCA35DF8225DEE06000BB40D /* UIView+IMYFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IMYFoundation.h"; sourceTree = "<group>"; };
@@ -180,7 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				75D2F3771F35AF0F00A734F2 /* Model */,
-				75D2F37A1F35AF0F00A734F2 /* Protocol */,
 				75D2F3831F35AF0F00A734F2 /* ViewController */,
 			);
 			path = Base;
@@ -195,14 +206,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		75D2F37A1F35AF0F00A734F2 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				75D2F37B1F35AF0F00A734F2 /* ReactiveTableViewCell.h */,
-			);
-			path = Protocol;
-			sourceTree = "<group>";
-		};
 		75D2F3831F35AF0F00A734F2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +217,60 @@
 				FCF6409B1F57984900F273CF /* BaseWebViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		75F5E82B228C21B400BFB715 /* TableViewPage */ = {
+			isa = PBXGroup;
+			children = (
+				75F5E82C228C21B400BFB715 /* ViewModel */,
+				75F5E82F228C21B400BFB715 /* Controller */,
+				75F5E832228C21B400BFB715 /* Model */,
+				75F5E838228C21B400BFB715 /* View */,
+			);
+			path = TableViewPage;
+			sourceTree = "<group>";
+		};
+		75F5E82C228C21B400BFB715 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				75F5E82D228C21B400BFB715 /* IMYDataViewModel.h */,
+				75F5E82E228C21B400BFB715 /* IMYDataViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		75F5E82F228C21B400BFB715 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75F5E830228C21B400BFB715 /* SDTableViewController.h */,
+				75F5E831228C21B400BFB715 /* SDTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75F5E832228C21B400BFB715 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75F5E833228C21B400BFB715 /* IMYItemProtocol.h */,
+				75F5E836228C21B400BFB715 /* IMYStudent.h */,
+				75F5E834228C21B400BFB715 /* IMYStudent.m */,
+				75F5E835228C21B400BFB715 /* IMYTeacher.h */,
+				75F5E837228C21B400BFB715 /* IMYTeacher.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75F5E838228C21B400BFB715 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75F5E839228C21B400BFB715 /* FHWBaseTableViewCell.h */,
+				75F5E83C228C21B400BFB715 /* FHWBaseTableViewCell.m */,
+				75F5E83D228C21B400BFB715 /* FHWStudentCell.h */,
+				75F5E83A228C21B400BFB715 /* FHWStudentCell.m */,
+				75F5E83B228C21B400BFB715 /* FHWTeacherCell.h */,
+				75F5E83E228C21B400BFB715 /* FHWTeacherCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A8F043C7490BA45BF64A7DE2 /* Pods */ = {
@@ -255,12 +312,10 @@
 			isa = PBXGroup;
 			children = (
 				FCA35E02225DFB81000BB40D /* README.md */,
-				FCA35DEE225DE8B6000BB40D /* CarouselView */,
+				75F5E82B228C21B400BFB715 /* TableViewPage */,
 				7525D0641F35A1D200C221DB /* Genternal */,
 				FC12FD491F2F2F610012B633 /* AppDelegate.h */,
 				FC12FD4A1F2F2F610012B633 /* AppDelegate.m */,
-				FC9324CF222E6B7C00408AF6 /* IMYViewController.h */,
-				FC9324D0222E6B7C00408AF6 /* IMYViewController.m */,
 				FC12FD521F2F2F610012B633 /* Assets.xcassets */,
 				FC12FD541F2F2F610012B633 /* LaunchScreen.storyboard */,
 				FC12FD571F2F2F610012B633 /* Info.plist */,
@@ -276,17 +331,6 @@
 				75D2F3B31F35B26900A734F2 /* SDLiveVideoStream-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FCA35DEE225DE8B6000BB40D /* CarouselView */ = {
-			isa = PBXGroup;
-			children = (
-				FCA35DF2225DE8FC000BB40D /* FHWPageControl.h */,
-				FCA35DF3225DE8FC000BB40D /* FHWPageControl.m */,
-				FCA35DF0225DE8C5000BB40D /* FHWCarouselView.h */,
-				FCA35DEF225DE8C5000BB40D /* FHWCarouselView.m */,
-			);
-			path = CarouselView;
 			sourceTree = "<group>";
 		};
 		FCA35E01225DEEAF000BB40D /* Foundation */ = {
@@ -434,24 +478,28 @@
 				FCF6409C1F57984900F273CF /* BaseWebViewController.m in Sources */,
 				75D2F3A81F35B1A700A734F2 /* NSObject+SDCategory.m in Sources */,
 				FCA35DF7225DED97000BB40D /* UIImageView+SDCategory.m in Sources */,
-				FC9324D1222E6B7C00408AF6 /* IMYViewController.m in Sources */,
 				FCA35DFA225DEE06000BB40D /* UIView+IMYFoundation.m in Sources */,
 				75D2F3AA1F35B1A700A734F2 /* UIButton+SDCategory.m in Sources */,
 				75D2F3AE1F35B1A700A734F2 /* UILabel+SDCategory.m in Sources */,
+				75F5E844228C21B400BFB715 /* FHWBaseTableViewCell.m in Sources */,
 				75D2F38D1F35AF0F00A734F2 /* BaseViewController.m in Sources */,
 				75D2F3B11F35B1A700A734F2 /* UIViewController+SDCategory.m in Sources */,
+				75F5E842228C21B400BFB715 /* IMYTeacher.m in Sources */,
 				75D2F3A91F35B1A700A734F2 /* NSString+SDCategory.m in Sources */,
-				FCA35DF4225DE8FC000BB40D /* FHWPageControl.m in Sources */,
 				FCA35E00225DEEAA000BB40D /* NSString+IMYFoundation.m in Sources */,
 				FC12FD4B1F2F2F610012B633 /* AppDelegate.m in Sources */,
+				75F5E83F228C21B400BFB715 /* IMYDataViewModel.m in Sources */,
 				75D2F3A71F35B1A700A734F2 /* NSData+SDCategory.m in Sources */,
 				75D2F3B21F35B1A700A734F2 /* UIWebView+SDCategory.m in Sources */,
 				75D2F3AB1F35B1A700A734F2 /* UIColor+SDCategory.m in Sources */,
+				75F5E843228C21B400BFB715 /* FHWStudentCell.m in Sources */,
 				FC12FD481F2F2F610012B633 /* main.m in Sources */,
-				FCA35DF1225DE8C5000BB40D /* FHWCarouselView.m in Sources */,
+				75F5E840228C21B400BFB715 /* SDTableViewController.m in Sources */,
 				75D2F3B01F35B1A700A734F2 /* UIView+SDCategory.m in Sources */,
 				FCA35DFD225DEE85000BB40D /* NSObject+IMYFoundation.m in Sources */,
 				75D2F3AF1F35B1A700A734F2 /* UITextField+SDCategory.m in Sources */,
+				75F5E845228C21B400BFB715 /* FHWTeacherCell.m in Sources */,
+				75F5E841228C21B400BFB715 /* IMYStudent.m in Sources */,
 				75D2F3881F35AF0F00A734F2 /* BaseViewModel.m in Sources */,
 				FC50B54B1F387B3E00714738 /* BaseNavigationController.m in Sources */,
 			);

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "IMYViewController.h"
+#import "SDTableViewController.h"
 
 
 @implementation AppDelegate
@@ -30,7 +30,7 @@
 
 -(void)CreateVCPage
 {
-    IMYViewController *testVC=[[IMYViewController alloc] init];
+    SDTableViewController *testVC=[[SDTableViewController alloc] init];
     UINavigationController *vc= [[UINavigationController alloc] initWithRootViewController:testVC];
     self.window.rootViewController=vc;
 }
