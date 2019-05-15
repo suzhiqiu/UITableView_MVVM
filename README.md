@@ -1,14 +1,17 @@
 # UITableView_MVVM
-水滴、椭圆滑块控件  
+UITableview_MMVM
 
-已经再项目稳定运行，也符合ui对里面细节进行定制，比如点的大小、宽度等。  
+1.定义一个协议 抽取共有方法。比如 类型type
 
-有问题给我提issues  
+@protocol IMYItemProtocol <NSObject>
+
+@property(nonatomic, assign) NSInteger type;
+
+2.生成各种model 都继承该协议
 
 
+3.生成一个viewModel。
+把uitableview 代理指向该viewModel
 
-参见
-FHWPageControl.h和FHWPageControl.m   
 
-
-![image](https://github.com/suzhiqiu/EllipsePageControl/blob/master/%E8%BD%AE%E6%92%AD.gif)
+![image](https://github.com/suzhiqiu/UITableView_MVVM/blob/master/SDLiveVideoStream/%E7%BB%93%E6%9E%84%E5%9B%BE.png)
