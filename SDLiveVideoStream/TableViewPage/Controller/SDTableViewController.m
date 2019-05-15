@@ -15,7 +15,6 @@
 @interface SDTableViewController ()
 
 @property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, strong) NSMutableArray *dataArray;
 @property (nonatomic, strong) IMYDataViewModel *dataViewModel;
 
 @end
@@ -49,8 +48,6 @@
     
     [self.dataViewModel getData];
     [self.tableView reloadData];
-    
-    
 }
 
 

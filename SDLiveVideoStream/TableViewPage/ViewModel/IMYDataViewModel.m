@@ -22,24 +22,16 @@
 /*正常请求数据返回*/
 -(void)getData{
     NSMutableArray *dataArray= [[NSMutableArray  alloc] init];
-    
     IMYStudent  *student = [[IMYStudent alloc] init];
     IMYTeacher  *tech = [[IMYTeacher alloc] init];
-    
     student.type=Type_Student;
     student.name=@"我是学生";
     tech.type=Type_Teacher;
     tech.name=@"我是老师";
-    
     [dataArray addObject:student];
     [dataArray addObject:tech];
-    
-    
     self.dataArray=[dataArray copy];
-    
 }
-
-
 
 /*number of section*/
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -59,33 +51,23 @@
 
 /*cell*/
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    
     id<IMYItemProtocol>  model= self.dataArray[indexPath.row];
-    
+    UITableViewCell *cell =nil;
     switch (model.type) {
-        case Type_Student:
-        {
-            FHWStudentCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([FHWStudentCell class]) forIndexPath:indexPath];
-            [cell setModel:model];
-            return cell;
+        case Type_Student:{
+            FHWStudentCell *studetnCell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([FHWStudentCell class]) forIndexPath:indexPath];
+            [studetnCell setModel:model];
+            cell=studetnCell;
         }
-            
             break;
         case Type_Teacher:{
-            FHWTeacherCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([FHWTeacherCell class]) forIndexPath:indexPath];
-            [cell setModel:model];
-            return cell;
+            FHWTeacherCell *teacherCell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([FHWTeacherCell class]) forIndexPath:indexPath];
+            [teacherCell setModel:model];
+            cell=teacherCell;
         }
-            
-            break;
-            
-        default:
             break;
     }
-    
-    
-    return nil;
+    return cell;
 }
 
 /*cell click*/

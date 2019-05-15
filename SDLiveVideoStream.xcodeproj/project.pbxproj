@@ -28,6 +28,7 @@
 		75F5E843228C21B400BFB715 /* FHWStudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E83A228C21B400BFB715 /* FHWStudentCell.m */; };
 		75F5E844228C21B400BFB715 /* FHWBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E83C228C21B400BFB715 /* FHWBaseTableViewCell.m */; };
 		75F5E845228C21B400BFB715 /* FHWTeacherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E83E228C21B400BFB715 /* FHWTeacherCell.m */; };
+		75F5E847228C6F6100BFB715 /* 结构图.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5E846228C6F6100BFB715 /* 结构图.png */; };
 		FC12FD481F2F2F610012B633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC12FD471F2F2F610012B633 /* main.m */; };
 		FC12FD4B1F2F2F610012B633 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC12FD4A1F2F2F610012B633 /* AppDelegate.m */; };
 		FC12FD531F2F2F610012B633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC12FD521F2F2F610012B633 /* Assets.xcassets */; };
@@ -94,6 +95,7 @@
 		75F5E83C228C21B400BFB715 /* FHWBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWBaseTableViewCell.m; sourceTree = "<group>"; };
 		75F5E83D228C21B400BFB715 /* FHWStudentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWStudentCell.h; sourceTree = "<group>"; };
 		75F5E83E228C21B400BFB715 /* FHWTeacherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWTeacherCell.m; sourceTree = "<group>"; };
+		75F5E846228C6F6100BFB715 /* 结构图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "结构图.png"; sourceTree = "<group>"; };
 		7A66E5A9A66C823485C1D7B6 /* Pods-SDLiveVideoStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDLiveVideoStream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDLiveVideoStream/Pods-SDLiveVideoStream.debug.xcconfig"; sourceTree = "<group>"; };
 		9247ADC3A36C962B601EA65D /* libPods-SDLiveVideoStream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDLiveVideoStream.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC12FD431F2F2F610012B633 /* SDLiveVideoStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLiveVideoStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,10 +224,10 @@
 		75F5E82B228C21B400BFB715 /* TableViewPage */ = {
 			isa = PBXGroup;
 			children = (
-				75F5E82C228C21B400BFB715 /* ViewModel */,
-				75F5E82F228C21B400BFB715 /* Controller */,
 				75F5E832228C21B400BFB715 /* Model */,
 				75F5E838228C21B400BFB715 /* View */,
+				75F5E82C228C21B400BFB715 /* ViewModel */,
+				75F5E82F228C21B400BFB715 /* Controller */,
 			);
 			path = TableViewPage;
 			sourceTree = "<group>";
@@ -312,6 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				FCA35E02225DFB81000BB40D /* README.md */,
+				75F5E846228C6F6100BFB715 /* 结构图.png */,
 				75F5E82B228C21B400BFB715 /* TableViewPage */,
 				7525D0641F35A1D200C221DB /* Genternal */,
 				FC12FD491F2F2F610012B633 /* AppDelegate.h */,
@@ -411,6 +414,7 @@
 				FCA35E03225DFB81000BB40D /* README.md in Resources */,
 				FC12FD561F2F2F610012B633 /* LaunchScreen.storyboard in Resources */,
 				FC12FD531F2F2F610012B633 /* Assets.xcassets in Resources */,
+				75F5E847228C6F6100BFB715 /* 结构图.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
