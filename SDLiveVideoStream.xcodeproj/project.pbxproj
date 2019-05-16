@@ -193,6 +193,7 @@
 		75D2F3761F35AF0F00A734F2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				75F5E88F228D183200BFB715 /* View */,
 				75D2F3771F35AF0F00A734F2 /* Model */,
 				75D2F3831F35AF0F00A734F2 /* ViewController */,
 			);
@@ -265,12 +266,19 @@
 		75F5E838228C21B400BFB715 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				75F5E839228C21B400BFB715 /* FHWBaseTableViewCell.h */,
-				75F5E83C228C21B400BFB715 /* FHWBaseTableViewCell.m */,
 				75F5E83D228C21B400BFB715 /* FHWStudentCell.h */,
 				75F5E83A228C21B400BFB715 /* FHWStudentCell.m */,
 				75F5E83B228C21B400BFB715 /* FHWTeacherCell.h */,
 				75F5E83E228C21B400BFB715 /* FHWTeacherCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75F5E88F228D183200BFB715 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75F5E839228C21B400BFB715 /* FHWBaseTableViewCell.h */,
+				75F5E83C228C21B400BFB715 /* FHWBaseTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
